@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="0fac8680cbc4c868c56b9ade9d106085e04048b746727e467ef60f16b511c5ac.html">Verificar El Correcto Funcionamiento Del Formulario De Registro</a></span>
+                > <span class="truncate-60"><a
+                    href="0839e0f03f452d88720964431d79efa70f655704f975f8a72ef56daf5e5ce5c3.html">Verificar el formulario de registro exitoso </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-03-2022 16:12</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Verificar El Correcto Funcionamiento Del Formulario De Registro </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                <pre><code>Yo como usuario quiero ingresar a Utest para completar el registro desde la plataforma web
+</code></pre>
+
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span>
+                            <span class="test-case-title">
+                                <span class="pending-color">Verificar el formulario de registro exitoso
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="241c959902e7d63b7d106788a3093f42f6da111cb6d8134f0bf2df53b7eae145.png" title="Given que Johnathan ingresa a la pagina de Utest" width="1366"/>
+                <img src="241c959902e7d63b7d106788a3093f42f6da111cb6d8134f0bf2df53b7eae145.png" title=" opens the Utest page" width="1366"/>
+                <img src="39dbf2c7be4bcadb04d67580f4512c105f460f92c141896375e05e1c6c1742d0.png" title="And le da click en el boton JOINTODAY" width="1366"/>
+                <img src="efdfac6f17fc50a25d45e0e55ee6ff28acbbab902e59669ce8cd4eb9346b91f7.png" title=" clicks on " width="1366"/>
+                <img src="c2d05ec745d7392eb201ca5a0806f73137c9aaa92818eeba6df6dd7c694c508b.png" title="When diligencia el formulario en el paso uno
+| firstName | lastName | email |
+| andres | Velez | avhardcore03@gmail.com |" width="1366"/>
+                <img src="4d72ec132de1053c5588bff502a5690ae346efd2072ba0246a1ca559c8251db0.png" title=" clicks on " width="1366"/>
+                <img src="532f7964e559614d972210e1d74a5fe97abd9195adb10278944ba23719add755.png" title=" enters 'andres' into " width="1366"/>
+                <img src="764a6c8bdf1175fd1cf0c4bb4a454e52ae5c416855e47033a2fc5c2dfe2aeae2.png" title=" clicks on " width="1366"/>
+                <img src="51a41769c8cef9eac8cb2381c6cc7338db24812923232fb1e9c1fb88d14307ae.png" title=" enters 'Velez' into " width="1366"/>
+                <img src="a474130893953758e37ca588467c5b31a47c55702af4f62ff7b051253df74063.png" title=" clicks on " width="1366"/>
+                <img src="70faab2c637f1e250f10907c8e2e441c909c125526487b5c0b1c121e2904c29c.png" title=" enters 'avhardcore03@gmail.com' into " width="1366"/>
+                <img src="47aeea6f434a1508a982bebd056c4af6d5495421487a423da936e17ff782b3bc.png" title=" clicks on " width="1366"/>
+                <img src="c1729c8dada21d8a67f49c35ce2a0edcba7c77ff9c7a2f17de3954c54bab6234.png" title=" clicks on " width="1366"/>
+                <img src="0aa8c906f3cd9adda8e663aeec8531dd813885e85d21b2da193356d098782f91.png" title=" clicks on " width="1366"/>
+                <img src="a9b2fb20cef2bcd39f5afa3c2bc4dbce7091076ea2f8be4a98e1cef4009242bb.png" title=" clicks on " width="1366"/>
+                <img src="2a7bb4fafbdd5e68a102916defebd4d77cb092a59d5e66156f6a3367048d5813.png" title=" clicks on " width="1366"/>
+                <img src="36ede62924c0997206c8feceba02fc2611c8b32986fc17f312a82560fc774cce.png" title=" clicks on " width="1366"/>
+                <img src="765a7657695fec0fd769649cd46c6e10ac9637d48a8e444fe43d53920482ae73.png" title=" clicks on " width="1366"/>
+                <img src="f6e6d6c6fa663033f7a0b49ef80f9b2031108695e2cdc1534c518d0fdae40839.png" title=" clicks on " width="1366"/>
+                <img src="6f61da7f4ba7251d1ed4686b52dc66725d8ab9c0d1497b86dffb3c57a636011d.png" title=" clicks on " width="1366"/>
+                <img src="4251884a5594dde533df7d20a77a5a9f09f60fdc73a263ce44b14384be8395cc.png" title="And diligencia el formulario del paso dos
+| city | zip | country |
+| Medell&iacute;n | 055412 | Colombia |" width="1366"/>
+                <img src="808382c82fbb77baed2f110ba416283b22ae3336be610dd0a82cec6f93efe459.png" title=" clicks on " width="1366"/>
+                <img src="0981d125cc8d368c69c0ddb9b0194ea98e8a99159d50746a1e04905c524983a2.png" title=" enters 'Medell&iacute;n' into " width="1366"/>
+                <img src="4a95eba628e3b2f2a74d150dc179edb576bfe4375497d9c79af3a582f5a0d920.png" title=" clicks on " width="1366"/>
+                <img src="878a41b740e6a33aedcbab96e56583b070c0c447c36a1bc60550e7907e755de2.png" title="And diligencia el formulario del paso tres
+| movileDevice | modelDev | os |
+| Apple | iPhone 11 | iOS 15.3.1 |" width="1366"/>
+                <img src="0c3119ec59b3e00461671affe8af310a7917714bd576aa74252395df101a42f4.png" title=" clicks on " width="1366"/>
+                <img src="6346a93149ac538c20c4c708c1f4aafa5d3b8b59b4d3e3c68a0f71c1e39a3775.png" title=" clicks on " width="1366"/>
+                <img src="1b99b0f91d72abf6237f1de24c7dc6b4072ad76966211a2e5aa69d621498b20f.png" title=" clicks on " width="1366"/>
+                <img src="91a09c28301768ead3179c0012d11ea5984c423d1e027da437368218cf2471b7.png" title=" clicks on " width="1366"/>
+                <img src="d032cdb00c869a03a8c2c3ecbaf1002761992e673ff2b6b8906d3c3840ceb66e.png" title=" clicks on " width="1366"/>
+                <img src="3b279632b96ab52c03742b20dce294135b3afd445caed26fa86f2128ec0daa71.png" title=" clicks on " width="1366"/>
+                <img src="d0256acf3a6b0e29339486879d711aecfe7314a708ca5c8ea4dc8537bb2a6f35.png" title=" clicks on : <span class='pending-color'>PENDING</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

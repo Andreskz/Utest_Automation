@@ -3,11 +3,8 @@ package co.com.choucair.certification.retoutestautomatizacion.stepdefinitions;
 import co.com.choucair.certification.retoutestautomatizacion.model.ChoucairData;
 import co.com.choucair.certification.retoutestautomatizacion.model.ChoucairData2;
 import co.com.choucair.certification.retoutestautomatizacion.model.ChoucairData3;
-import co.com.choucair.certification.retoutestautomatizacion.tasks.ClickJoin;
-import co.com.choucair.certification.retoutestautomatizacion.tasks.OpenPage;
-import co.com.choucair.certification.retoutestautomatizacion.tasks.Signup;
-import co.com.choucair.certification.retoutestautomatizacion.tasks.Signup2;
-import co.com.choucair.certification.retoutestautomatizacion.tasks.Signup3;
+import co.com.choucair.certification.retoutestautomatizacion.model.ChoucairData4;
+import co.com.choucair.certification.retoutestautomatizacion.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -54,11 +51,11 @@ public class StepdefinitionsFields {
 
     }
 
-    /*@And("^diligencia el formulario del paso cuatro$")
-    public void diligenciaElFormularioDelPasoCuatro(List<ChoucairData> choucairData) throws Exception {
-        OnStage.theActorInTheSpotlight().attemptsTo(Signup.form4(choucairData));
+    @And("^diligencia el formulario del paso cuatro$")
+    public void diligenciaElFormularioDelPasoCuatro(List<ChoucairData4> choucairData4) throws Exception {
+        OnStage.theActorInTheSpotlight().attemptsTo(Signup4.form4(choucairData4));
 
-    }*/
+    }
 
     @Then("^Verifica que completo el registro$")
     public void verificaQueCompletoElRegistro() throws Exception {

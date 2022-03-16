@@ -46,6 +46,10 @@ public class FieldMapping {
     public static final Target CITY = Target.the("")
             .located(By.id("city"));
 
+    public static final Target LABELCITY = Target.the("")
+            .located(By.xpath("/html/body/ui-view/main/section/div/div[2]/div/div[2]/div/form/div[1]/div[3]/div[1]/div[1]/div/label"));
+
+
     public static final Target ZIP = Target.the("")
             .located(By.id("zip"));
 
@@ -99,6 +103,12 @@ public class FieldMapping {
 
     public static final Target BTNCOMPLETE = Target.the("")
             .located(By.id("laddaBtn"));
+
+    public static final Target TEXTO = Target.the("")
+            .located(By.xpath("/html/body/ui-view/unauthenticated-container/div/div/div/ui-view/div/div/div/div[1]/div/h1/font/font"));
+
+
+
 
 
 

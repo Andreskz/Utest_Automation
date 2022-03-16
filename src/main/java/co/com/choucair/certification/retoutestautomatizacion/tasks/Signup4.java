@@ -33,10 +33,15 @@ public class Signup4 implements Task {
                 Enter.theValue(choucairData4.get(0).getConfirmPassword()).into(fieldMapping.CONFIRMPASSWORD),
 
                 Click.on(fieldMapping.TERMSOFUSE1),
-                Click.on(fieldMapping.TERMSOFUSE2)
+                Click.on(fieldMapping.TERMSOFUSE2),
 
-                //Click.on(fieldMapping.BTNCOMPLETE)
+                Click.on(fieldMapping.BTNCOMPLETE)
         );
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 

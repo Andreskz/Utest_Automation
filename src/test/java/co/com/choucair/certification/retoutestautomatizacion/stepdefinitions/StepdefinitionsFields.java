@@ -4,12 +4,14 @@ import co.com.choucair.certification.retoutestautomatizacion.model.ChoucairData;
 import co.com.choucair.certification.retoutestautomatizacion.model.ChoucairData2;
 import co.com.choucair.certification.retoutestautomatizacion.model.ChoucairData3;
 import co.com.choucair.certification.retoutestautomatizacion.model.ChoucairData4;
+import co.com.choucair.certification.retoutestautomatizacion.questions.Answer;
 import co.com.choucair.certification.retoutestautomatizacion.tasks.*;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -18,7 +20,7 @@ import java.util.List;
 public class StepdefinitionsFields {
 
     @Before
-    public void setStage(){
+    public void setStage() {
         OnStage.setTheStage(new OnlineCast());
     }
 
@@ -57,9 +59,10 @@ public class StepdefinitionsFields {
 
     }
 
-    @Then("^Verifica que completo el registro$")
-    public void verificaQueCompletoElRegistro() throws Exception {
-
+    @Then("^Verifica que completo el registro (.*)$")
+    public void verificaQueCompletoElRegistroWelcomeToTheWorldSLargestCommunityOfFreelanceSoftwareTesters(String question) {
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
     }
+
 
 }

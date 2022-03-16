@@ -8,8 +8,8 @@
       Given que Johnathan ingresa a la pagina de Utest
       And le da click en el boton JOINTODAY
       When diligencia el formulario en el paso uno
-        | firstName | lastName | email                  |
-        | andres    | Velez    | avhardcore03@gmail.com |
+        | firstName | lastName | email              |
+        | andres    | Velez    | has19072@gmail.com |
       And diligencia el formulario del paso dos
         | city     | zip    | country  |
         | Medellín | 055412 | Colombia |
@@ -20,4 +20,4 @@
       And diligencia el formulario del paso cuatro
         | password      | confirmPassword |
         | Choucair2022* | Choucair2022*   |
-      Then Verifica que completo el registro
+      Then Verifica que completo el registro Welcome to the world's largest community of freelance software testers!

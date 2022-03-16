@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 12-03-2022 16:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-03-2022 12:39</span>
     <br style="clear:left"/>
 </div>
 
@@ -160,9 +160,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Verificar el formulario de registro exitoso
+                                <span class="error-color">Verificar el formulario de registro exitoso
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -179,56 +179,108 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: Expected condition failed: waiting for By.xpath: /html/body/ui-view/unauthenticated-container/div/div/div/ui-view/div/div/div/div[1]/div/h1/font/font to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'CHMEP9PG5RF3', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'Driver info: driver.version: unknown">
+                            Assertion error: Expected condition failed: waiting for By.xpath: /html/body/ui-view/unauthenticated-container/div/div/div/ui-view/div/div/div/div[1]/div/h1/font/font to be displayed (tried for 5 second(s) with 100 milliseconds interval)Buil...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Expected condition failed: waiting for By.xpath: /html/body/ui-view/unauthenticated-container/div/div/div/ui-view/div/div/div/div[1]/div/h1/font/font to be displayed (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEP9PG5RF3', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'<br>Driver info: driver.version: unknown</pre>
+                                    </h5>
+                                    co.com.choucair.certification.retoutestautomatizacion.stepdefinitions.StepdefinitionsFields.verificaQueCompletoElRegistroWelcomeToTheWorldSLargestCommunityOfFreelanceSoftwareTesters(StepdefinitionsFields.java
+                                    :64) <br>
+                                    ✽.Verifica que completo el registro Welcome to the world's largest community of freelance software testers!(src/test/resources/features/registroUtest.feature
+                                    :23) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7120939632070916978.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="241c959902e7d63b7d106788a3093f42f6da111cb6d8134f0bf2df53b7eae145.png" title="Given que Johnathan ingresa a la pagina de Utest" width="1366"/>
                 <img src="241c959902e7d63b7d106788a3093f42f6da111cb6d8134f0bf2df53b7eae145.png" title=" opens the Utest page" width="1366"/>
-                <img src="56db664b7b4902faded6685099eaeb88583b364ad320b9525c04b475bebc1404.png" title="And le da click en el boton JOINTODAY" width="1366"/>
-                <img src="3e8dd133fe91f07e898f1650ef90dad511ad81b70f92371fcf22fd8024ec55e8.png" title=" clicks on " width="1366"/>
+                <img src="4d72ec132de1053c5588bff502a5690ae346efd2072ba0246a1ca559c8251db0.png" title="And le da click en el boton JOINTODAY" width="1366"/>
+                <img src="3f3eaf93bf9ade23b22d4efd81634a2e4ac1b6b141e0745eec1be85ee538ef8c.png" title=" clicks on " width="1366"/>
                 <img src="c2d05ec745d7392eb201ca5a0806f73137c9aaa92818eeba6df6dd7c694c508b.png" title="When diligencia el formulario en el paso uno
 | firstName | lastName | email |
-| andres | Velez | avhardcore03@gmail.com |" width="1366"/>
+| andres | Velez | has19072@gmail.com |" width="1366"/>
                 <img src="4d72ec132de1053c5588bff502a5690ae346efd2072ba0246a1ca559c8251db0.png" title=" clicks on " width="1366"/>
-                <img src="7280cd2e83f922e91d8ff98b0e959822902b1fedf3190d51dcefed3e7bf3189e.png" title=" enters 'andres' into " width="1366"/>
-                <img src="ff71344854b2effdbc3793571ae35ce3228f81378dafd97f8b06c192770f7fb2.png" title=" clicks on " width="1366"/>
-                <img src="a36ce09d0f11b5c2b2f5217af5bee7e9f65d41274dcd731d5588d019b0f4fc89.png" title=" enters 'Velez' into " width="1366"/>
-                <img src="5b68e9fd84091fbd9fd17979c5cf243a2cffb23d4d3e83a4a698acb9e1c1ef2e.png" title=" clicks on " width="1366"/>
-                <img src="22cb99696a67712977dc741dd870ca36951a91bd48c78b172efe9cef6e087e8f.png" title=" enters 'avhardcore03@gmail.com' into " width="1366"/>
-                <img src="9befab37248ab35b9a6251564a495af50c7e2448240c43ee7ba32b4296894847.png" title=" clicks on " width="1366"/>
-                <img src="7848a62f05c5714a21f25d0c50ff193069186723c8db756ca16c8cc1b994f203.png" title=" clicks on " width="1366"/>
-                <img src="11c2d957fd1c1a0cc186f31f0a65f268c490769fb98956b6a2a8bda549cbdace.png" title=" clicks on " width="1366"/>
-                <img src="47f18f95dd3020a3be77769c402b87ed4c665db06ef6e20560863f69e90b8485.png" title=" clicks on " width="1366"/>
-                <img src="b442d2cb21862238a4568a573ee8f6896d2fdc6705fd6478f5207ddfcdb01ef6.png" title=" clicks on " width="1366"/>
-                <img src="deee6474a57fc6e7d6dab91be6a05ea733e7fd1f97929e3a50bb5f98060f9a0d.png" title=" clicks on " width="1366"/>
-                <img src="507f1d85581473a91a05e2249f931e44918eeff191b724b3895432b5487fbcbf.png" title=" clicks on " width="1366"/>
-                <img src="a3f555ceadbd5aaa71923ea207555ccf4461d47b03a36d6faabafd3d4d6963b0.png" title=" clicks on " width="1366"/>
-                <img src="6f61da7f4ba7251d1ed4686b52dc66725d8ab9c0d1497b86dffb3c57a636011d.png" title=" clicks on " width="1366"/>
+                <img src="532f7964e559614d972210e1d74a5fe97abd9195adb10278944ba23719add755.png" title=" enters 'andres' into " width="1366"/>
+                <img src="87e6ea5af0266d0cd4b0ab40de411ce1e3bb7c01a36b5741c1da5d34403f5a1b.png" title=" clicks on " width="1366"/>
+                <img src="e9330677d0aa1a22ae43fe5dfcba8fac7705e4059abcd6bb64ea5a0649798f3e.png" title=" enters 'Velez' into " width="1366"/>
+                <img src="3205c58761b0b3bdf66c354ab4570f0fa830ced96c94826aedaa5f1420efa23b.png" title=" clicks on " width="1366"/>
+                <img src="c5a8ca075975170d2760447e2dd31fe5a73203f7924cabe6fcdc599b012a495d.png" title=" enters 'has19072@gmail.com' into " width="1366"/>
+                <img src="6d6e515c3f4553b9952b1a854fe7f4a2995f23fcabe479ca0bd45845ca746e29.png" title=" clicks on " width="1366"/>
+                <img src="8c4c0902f6660c7456c6e223d8266b72bcabe4d75bc9e0d5d95c9d1b32fa5da1.png" title=" clicks on " width="1366"/>
+                <img src="3a53aa52e34f28f2f4e2edce4f275355c332e315763e0994c574ed243c1c4315.png" title=" clicks on " width="1366"/>
+                <img src="d88f4c9042cf833f41bce3a89ad45994861a4544bd71fd060aed4c832bd04e3a.png" title=" clicks on " width="1366"/>
+                <img src="8ad18974b2ceae58e7fd51814ca9a7922f4853622c61db917a1c5b520a069030.png" title=" clicks on " width="1366"/>
+                <img src="a9c8b03dcee4029b3649c8b340a6bd8c413296c3ecb1e8417cca81efef1959da.png" title=" clicks on " width="1366"/>
+                <img src="6fb1939895c7df97f5434475c4de5cc3ce36425dd88648212480636b5754a7a4.png" title=" clicks on " width="1366"/>
+                <img src="b5754ea4816f23c376859f62a2a0ab14676ffb489239de8f4341121aa22b95d1.png" title=" clicks on " width="1366"/>
+                <img src="c2d05ec745d7392eb201ca5a0806f73137c9aaa92818eeba6df6dd7c694c508b.png" title=" clicks on " width="1366"/>
                 <img src="4251884a5594dde533df7d20a77a5a9f09f60fdc73a263ce44b14384be8395cc.png" title="And diligencia el formulario del paso dos
 | city | zip | country |
 | Medell&iacute;n | 055412 | Colombia |" width="1366"/>
-                <img src="808382c82fbb77baed2f110ba416283b22ae3336be610dd0a82cec6f93efe459.png" title=" clicks on " width="1366"/>
-                <img src="60e87bf67e4687ef8a69fda234556954ad51f605038f8ae74bb0837248d69d57.png" title=" enters 'Medell&iacute;n' into " width="1366"/>
-                <img src="34fa09345470ab8fe72dc62086eedd04a858e10309412ca9d174cfba1451b528.png" title=" clicks on " width="1366"/>
-                <img src="878a41b740e6a33aedcbab96e56583b070c0c447c36a1bc60550e7907e755de2.png" title="And diligencia el formulario del paso tres
+                <img src="d4b9bf7f9b71e2d2619063de757da8d950ada4fa704fb015676f289565f4b9dd.png" title=" clicks on " width="1366"/>
+                <img src="41945486bd7fc91cb9943661561ea520b62af1962770be0faa5f7d4db05e090f.png" title=" enters 'Medell&iacute;n' into " width="1366"/>
+                <img src="92ec0830ea4ec8c221f27f36b0d74d186412e9b7519c2646cc7c21fb5f12cb4c.png" title=" clicks on " width="1366"/>
+                <img src="0174e16ac4a333936dbdbef03a8cef79be2646f611b6f60d43592ec0451526ce.png" title=" clicks on " width="1366"/>
+                <img src="8defaa0aecafb38c1a30e2620653534c5f89e1cdfa7c949a647684b7ce071ee8.png" title=" enters '055412' into " width="1366"/>
+                <img src="ec08fcbfd8625e220ab56afe0b505cabae483bfedc58573371828b1339923415.png" title=" clicks on " width="1366"/>
+                <img src="37113724d2bebf3dd0decdec06c1900a2004b877de89bcb4e854802ace1eee0e.png" title="And diligencia el formulario del paso tres
 | movileDevice | modelDev | os |
 | Apple | iPhone 11 | iOS 15.3.1 |" width="1366"/>
-                <img src="6efcf898270554e0ca2f1c96eea406b74ab478b848830d2ce6c907f0ae5280c3.png" title=" clicks on " width="1366"/>
-                <img src="d7b21e43e651726af35eb7ef9873810dfe719beef8c88f66b86e12e1f8dab82d.png" title=" clicks on " width="1366"/>
-                <img src="9ba44ce193453f37a7f4ecabcb00ae0df3c8ee142732789187f9b29aeae8a576.png" title=" clicks on " width="1366"/>
-                <img src="726b06513d26ee150039f1ee5903f76dc6907910f0faecea4418e6720169223c.png" title=" clicks on " width="1366"/>
-                <img src="b3ab52abdfd9252cd3dfc43f11e202538ebd776a8ffa4ef5d13dd131322b2967.png" title=" clicks on " width="1366"/>
-                <img src="8e2f7e340a4aa7b812e0ff6dc69e7ef50e48f13122fc0aa72fa79e4ebb5f5a12.png" title=" clicks on " width="1366"/>
-                <img src="d0256acf3a6b0e29339486879d711aecfe7314a708ca5c8ea4dc8537bb2a6f35.png" title=" clicks on " width="1366"/>
-                <img src="e70b11888cc984c6cc7351bce3bf0b221b8ef8ded5636e0f2138781a39b1ab9b.png" title="And diligencia el formulario del paso cuatro
+                <img src="eb2b7ef51447ea411f4617b9f89c80bf178300d2444f15d268ca87e64ddf3a63.png" title=" clicks on " width="1366"/>
+                <img src="783ec77cc29d8976d75ca0df4530a8310b283d5741c4c089dc4765bf20c6d629.png" title=" clicks on " width="1366"/>
+                <img src="4bd09f55d140f3e57280285da711cdaa5ae5a09fd491e9725eb6e700c340df57.png" title=" clicks on " width="1366"/>
+                <img src="d11c37ff5f2f261793b65b291e33f08f1181fe24aacdcd018930b777ea0e6c8f.png" title=" clicks on " width="1366"/>
+                <img src="0b174924e077c24c764eeb02f551f5e221d62fa84179215b996c592961dd08fe.png" title=" clicks on " width="1366"/>
+                <img src="0b5e690b5e2a97f7b54287da01fc39f18f0bdbdace168de0b0abee15ea3ec150.png" title=" clicks on " width="1366"/>
+                <img src="64d095f6c4a500250363a1d39c3e0eb6c3f9ed5def9797107516df38a28fc46f.png" title=" clicks on " width="1366"/>
+                <img src="72f9bc0e8c19bfc18e95085879ff0fc61a52cb1246b286bf2fc59cedd2cf7c2e.png" title="And diligencia el formulario del paso cuatro
 | password | confirmPassword |
 | Choucair2022* | Choucair2022* |" width="1366"/>
-                <img src="5fd42031fc648a3c352b9fbbe5ccf4c72bffd1a2798b1792551695c9678ade9b.png" title=" clicks on " width="1366"/>
-                <img src="f9491b1cc64e4748b399bc46cfdd161363d1a295afb817eac2f38253523d1b36.png" title=" enters 'Choucair2022*' into " width="1366"/>
-                <img src="388db877b2ea0001c3abd5eb9aa21ff78d4a310770fc8ccad3b21a5f29d83a90.png" title=" clicks on " width="1366"/>
+                <img src="5fc9f54e828aa60ba7fb372d6bcfb0f3b9970b536d29b7c0ea000eb80499be80.png" title=" clicks on " width="1366"/>
+                <img src="ccbc38427c51327c1135ac0468b2b8a8c5add80b865448318cff9b63e576aa02.png" title=" enters 'Choucair2022*' into " width="1366"/>
+                <img src="acc90788cc83f0da5c8f822cbc51f6a3dc8c83f4f3901fbdac5547cc44c77402.png" title=" clicks on " width="1366"/>
                 <img src="b81baa725fbf05877dda9f44c2737f4f282730c379f32d8117472ebfc212317d.png" title=" enters 'Choucair2022*' into " width="1366"/>
                 <img src="4b675c6ae6b54a30756e7b9e861e18060ad9d1588aa4c8457195a98b71cd33d7.png" title=" clicks on " width="1366"/>
                 <img src="e70b11888cc984c6cc7351bce3bf0b221b8ef8ded5636e0f2138781a39b1ab9b.png" title=" clicks on " width="1366"/>
-                <img src="e70b11888cc984c6cc7351bce3bf0b221b8ef8ded5636e0f2138781a39b1ab9b.png" title="Then Verifica que completo el registro: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="a65312e3694603b274ebff8b4a17f4db9831d6e365e780e1168d931faf5356d8.png" title=" clicks on " width="1366"/>
+                <img src="0492be5ac3247f97a3b888c3316d3c2ad80b795fd01b397137000bf2a38691a6.png" title="Then answer: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

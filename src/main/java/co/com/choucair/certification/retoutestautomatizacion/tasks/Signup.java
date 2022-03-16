@@ -15,12 +15,10 @@ public class Signup implements Task {
     List<ChoucairData> choucairData;
     private FieldMapping fieldMapping;
 
-    public Signup(List<ChoucairData> choucairData) {
+    public Signup(List<ChoucairData> choucairData)
+    {
       this.choucairData = choucairData;
     }
-
-    // REVISAR LOS RETURN QUE GENERÉ DESDE LA CLASE STEPDEFINITIONFIELD
-
 
     public static Signup form1(List<ChoucairData> choucairData) {
         return Tasks.instrumented(Signup.class,choucairData);
